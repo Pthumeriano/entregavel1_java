@@ -6,11 +6,11 @@ public class Algoritmos {
 	    return n<2 ? 1 : fibonacci(n-1) + fibonacci(n-2);
 	}
 	  
-	  public int somatorio(int n){
+	  public int somatorio(int arr[]){
 	    int resultado=0;
-	    for(int i=1; i<=n; i++){
-	      resultado+=i;
-	    }
+	    for(int i=0; i<arr.length; i++){
+        resultado += arr[i];
+      }
 	    return resultado;
 	  }
 	  
